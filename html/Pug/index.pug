@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(name="keywords", content="En ecrit un contenue complet paragrapher")
+        meta(name="description", content="En ecrit des mots separatifs ici")
+        include _linkCss
+        title Document
+    body
+        header(class="navbar navbar-expand-md navbar-light bg-light fixed-top")
+            .container
+                input(type="checkbox", id="nav")
+                label(for="nav")
+                    i(class="fas fa-align-justify")
+                a(href="navbar-brand", class="text-capitalize text-dark") avilon
+                nav(class="navbar-collapse")
+                    ul(class="navbar-nav ml-auto text-capitalize")
+                        li(class="nav-item active")
+                            a(href="#",class="nav-link") home
+                        li(class="nav-item")
+                            a(href="#",class="nav-link") about us
+                        li(class="nav-item")
+                            a(href="#",class="nav-link") features
+                        li(class="nav-item")
+                            a(href="#",class="nav-link") pricing
+                        li(class="nav-item")
+                            a(href="#",class="nav-link") team
+                        li(class="nav-item")
+                            a(href="#",class="nav-link") gallery
+                        li(class="nav-item dropdown")
+                            a(href="#", class="nav-link dropdown-toggle",id="dropnav", data-toggle="dropdown") drop down
+                            div(class="dropdown-menu",aria-labelledby="dropnav")
+                                a(href="#",class="dropdown-item") dropi1
+                                a(href="#",class="dropdown-item") dropi3
+                                a(href="#",class="dropdown-item dropdown") dropi3
+                        li(class="nav-item")
+                            a(href="#",class="nav-link") contact us
+        section.backgroundImage
+            .overlay
+                .container
+                    .contentHeader.centerEle
+                        h2.text-uppercase.text-white.font-weight-bold welcome to avilon
+                        p.lead.text-white.py-4 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, corrupti.
+                        button.botn.text-capitalize get strated
+                    .contentImage
+                        img(src="../img/product-screen-1.png", alt="alt")
+                    .contentImage1
+                        img(src="../img/product-screen-2.png", alt="alt",class="rightImage")
+        section.about
+            main.repeatCh.p-5
+                .container
+                    .content.text-center
+                        h3.text-dark.font-weight-bold.text-capitalize.display-4 about us
+                        span.d-block
+                        p.lead.font-weight-normal Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, cumque?
+                .row
+                    .col-md-6.col-12
+                        img(src="../img/about-img.jpg",class="resImg", alt="alt")
+                    .col-md-6.col-12
+                        p.lead Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, laudantium fugit. Nobis, est rerum reiciendis totam quia magni ratione quaerat, possimus, placeat sit dolorum. Ipsum impedit minus sed accusamus veritatis!
+                        p.lead Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, laudantium fugit. Nobis, est rerum reiciendis totam quia magni ratione quaerat, possimus, placeat sit dolorum. Ipsum impedit minus sed accusamus veritatis!
+                        p.lead Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, laudantium fugit. Nobis, est rerum reiciendis totam quia magni ratione quaerat, possimus, placeat sit dolorum. Ipsum impedit minus sed accusamus veritatis!
+        section.feauture
+            .container
+                .row.bg-white
+                    .col-md-4.col-12.py-4
+                        img(src="../img/product-features.png",class="resImg", alt="alt")
+                    .col-md-8.col-12
+                        main.repeatCh.p-2.bg-white
+                            .content.text-center
+                                h3.text-dark.font-weight-bold.text-capitalize.display-4 about us
+                                span.d-block
+                                p.lead.font-weight-normal Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, cumque?
+                        .row
+                            .col-md-6.col-12.text-center
+                                i(class="fas fa-flask")
+                                h5.py-2 Lorem, ipsum dolor.
+                                p.lead.text-secondary soluta voluptas incidunt totam impedit quo autem animi eaque doloremque, fugit at ut fugiat!
+                            .col-md-6.col-12.text-center
+                                i(class="fas fa-flask")
+                                h5.py-2 Lorem, ipsum dolor.
+                                p.lead.text-secondary soluta voluptas incidunt totam impedit quo autem animi eaque doloremque, fugit at ut fugiat!
+                            .col-md-6.col-12.text-center
+                                i(class="fas fa-flask")
+                                h5.py-2 Lorem, ipsum dolor.
+                                p.lead.text-secondary soluta voluptas incidunt totam impedit quo autem animi eaque doloremque, fugit at ut fugiat!
+                            .col-md-6.col-12.text-center
+                                i(class="fas fa-flask")
+                                h5.py-2 Lorem, ipsum dolor.
+                                p.lead.text-secondary soluta voluptas incidunt totam impedit quo autem animi eaque doloremque, fugit at ut fugiat!
+            .row.contentSection.p-4
+                .col-md-6.col-12
+                    h3.display-4  Ipsum impedit minus sed accusamus veritatis!
+                    p.lead Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, laudantium fugit. Nobis, est rerum reiciendis totam quia magni ratione quaerat, possimus, placeat sit dolorum. Ipsum impedit minus sed accusamus veritatis!
+                    p.lead Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, laudantium fugit. Nobis, est rerum reiciendis totam quia magni ratione quaerat, possimus, placeat sit dolorum. Ipsum impedit minus sed accusamus veritatis!
+                .col-md-6.col-12
+                    img(src="../img/advanced-feature-1.jpg",class="resImg", alt="alt")
+            .row.bg-white.p-4.bothSide
+                .col-md-6.col-12
+                    img(src="../img/advanced-feature-2.jpg",class="resImg", alt="alt")
+                .col-md-6.col-12
+                    .contentBoth
+                        i(class="p-3 fas fa-book-dead")
+                        p.lead Ipsum impedit minus sed accusamus veritatis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, 
+                    .contentBoth
+                        i(class="p-3 fas fa-book-dead")
+                        p.lead Ipsum impedit minus sed accusamus veritatis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, 
+                    .contentBoth
+                        i(class="p-3 fas fa-book-dead")
+                        p.lead Ipsum impedit minus sed accusamus veritatis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, 
+            .row.contentSection.p-4
+                .col-md-6.col-12
+                    p.lead  Ipsum impedit minus sed accusamus veritatis!
+                    p.lead Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, laudantium fugit. Nobis, est rerum reiciendis totam quia magni ratione quaerat, possimus, placeat sit dolorum. Ipsum impedit minus sed accusamus veritatis!
+                    p.lead Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, laudantium fugit. Nobis, est rerum reiciendis totam quia magni ratione quaerat, possimus, placeat sit dolorum. Ipsum impedit minus sed accusamus veritatis!
+                .col-md-6.col-12
+                    img(src="../img/advanced-feature-3.jpg",class="resImg", alt="alt")
+        article
+            .container
+                .row.p-5
+                    .col-12
+                        h4.text-white.font-weight-bold.text-capitalize call to action
+                        p.lead Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reiciendis dicta similique ab est et neque quisquam hic nemo. Doloremque quod possimus excepturi tempore. Dolorem. #[button.botn call to action]
+        section.Feat.p-4
+            main.repeatCh.p-5
+                .container
+                    .content.text-center
+                        h3.text-dark.font-weight-bold.text-capitalize.display-5 more features
+                        span.d-block
+                        p.lead.font-weight-normal Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, cumque?
+            .container
+                .row
+                    .col-md-6.col-12
+                        .contenue.bg-white.p-4
+                            i(class="far fa-clock")
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestiae ratione qui aut nostrum possimus eum vero. Sequi, adipisci eos.
+                    .col-md-6.col-12
+                        .contenue.bg-white.p-4
+                            i(class="far fa-heart")
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestiae ratione qui aut nostrum possimus eum vero. Sequi, adipisci eos.
+                    .col-md-6.col-12
+                        .contenue.bg-white.p-4
+                            i(class="far fa-clock")
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestiae ratione qui aut nostrum possimus eum vero. Sequi, adipisci eos.
+                    .col-md-6.col-12
+                        .contenue.bg-white.p-4
+                            i(class="far fa-clock")
+                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestiae ratione qui aut nostrum possimus eum vero. Sequi, adipisci eos.
+        aside.bg-white
+            .container
+                .row.p-5
+                    .col-md-2.col-4
+                        img(src="../img/clients/client-1.png", alt="alt",class="resImg")
+                    .col-md-2.col-4
+                        img(src="../img/clients/client-2.png", alt="alt",class="resImg")
+                    .col-md-2.col-4
+                        img(src="../img/clients/client-3.png", alt="alt",class="resImg")
+                    .col-md-2.col-4
+                        img(src="../img/clients/client-4.png", alt="alt",class="resImg")
+                    .col-md-2.col-4
+                        img(src="../img/clients/client-5.png", alt="alt",class="resImg")
+                    .col-md-2.col-4
+                        img(src="../img/clients/client-6.png", alt="alt",class="resImg")
+        section.pricing.py-5
+            main.repeatCh.p-5
+                .container
+                    .content.text-center
+                        h3.text-dark.font-weight-bold.text-capitalize.display-5 pricing
+                        span.d-block
+                        p.lead.font-weight-normal Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, cumque?
+            .container
+                .row
+                    .col-md-4.col-12.text-center
+                        .contentPrice.p-4
+                            h5.text-capitalize.font-weight-bold free
+                            p month
+                            ul.list-style
+                                li Lorem ipsum dolor sit amet.
+                                li Lorem ipsum dolor sit amet.
+                                li Lorem ipsum dolor sit amet.
+                                li Lorem ipsum dolor sit amet.
+                                li Lorem ipsum dolor sit amet.
+                            button.text-capitalize.botn.activeBtn get started
+                    .col-md-4.col-12.text-center
+                        .contentPrice.activePrice.p-4
+                            h5.text-capitalize.font-weight-bold business
+                            p month
+                            ul.list-style
+                                li Lorem ipsum dolor sit amet.
+                                li Lorem ipsum dolor sit amet.
+                                li Lorem ipsum dolor sit amet.
+                                li Lorem ipsum dolor sit amet.
+                                li Lorem ipsum dolor sit amet.
+                            button.text-capitalize.botn.activeBtn.ActivBt get started
+                    .col-md-4.col-12.text-center
+                        .contentPrice.p-4
+                            h5.text-capitalize.font-weight-bold developer
+                            p month
+                            ul.list-style
+                                li Lorem ipsum dolor sit amet.
+                                li Lorem ipsum dolor sit amet.
+                                li Lorem ipsum dolor sit amet.
+                                li Lorem ipsum dolor sit amet.
+                                li Lorem ipsum dolor sit amet.
+                            button.text-capitalize.botn.activeBtn get started
+        section.Team.p-5
+            main.repeatCh.p-5
+                .container
+                    .content.text-center
+                        h3.text-dark.font-weight-bold.text-capitalize.display-5 pricing
+                        span.d-block
+                        p.lead.font-weight-normal Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, cumque?
+            .row
+                .col-md-3.col-12
+                    .walter.text-center
+                        img(src="../img/team/team-1.jpg",class="resImg", alt="alt")
+                        h6.py-2.display-5.text-capitalize walter white
+                        p.lead Lorem ipsum dolor sit amet.
+                        .icons
+                            i(class="p-3 fab fa-facebook-square")
+                            i(class="p-3 fab fa-twitter")
+                            i(class="p-3 fab fa-youtube")
+                            i(class="p-3 fab fa-linkedin")
+                .col-md-3.col-12
+                    .walter.text-center
+                        img(src="../img/team/team-2.jpg",class="resImg", alt="alt")
+                        h6.py-2.display-5.text-capitalize walter white
+                        p.lead Lorem ipsum dolor sit amet.
+                        .icons
+                            i(class="p-3 fab fa-facebook-square")
+                            i(class="p-3 fab fa-twitter")
+                            i(class="p-3 fab fa-youtube")
+                            i(class="p-3 fab fa-linkedin")
+                .col-md-3.col-12
+                    .walter.text-center
+                        img(src="../img/team/team-3.jpg",class="resImg", alt="alt")
+                        h6.py-2.display-5.text-capitalize walter white
+                        p.lead Lorem ipsum dolor sit amet.
+                        .icons
+                            i(class="p-3 fab fa-facebook-square")
+                            i(class="p-3 fab fa-twitter")
+                            i(class="p-3 fab fa-youtube")
+                            i(class="p-3 fab fa-linkedin")
+                .col-md-3.col-12
+                    .walter.text-center
+                        img(src="../img/team/team-4.jpg",class="resImg", alt="alt")
+                        h6.py-2.display-5.text-capitalize walter white
+                        p.lead Lorem ipsum dolor sit amet.
+                        .icons
+                            i(class="p-3 fab fa-facebook-square")
+                            i(class="p-3 fab fa-twitter")
+                            i(class="p-3 fab fa-youtube")
+                            i(class="p-3 fab fa-linkedin")
+        section.Gallery
+            main.repeatCh.p-5.bg-white
+                .container
+                    .content.text-center
+                        h3.text-dark.font-weight-bold.text-capitalize.display-5 gallery
+                        span.d-block
+                        p.lead.font-weight-normal Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, cumque?
+            .row
+                .col-md-4.col-12
+                    img(class="resImg",src="../img/gallery/gallery-1.jpg", alt="alt")
+                .col-md-4.col-12
+                    img(class="resImg",src="../img/gallery/gallery-2.jpg", alt="alt")
+                .col-md-4.col-12
+                    img(class="resImg",src="../img/gallery/gallery-3.jpg", alt="alt")
+                .col-md-4.col-12
+                    img(class="resImg",src="../img/gallery/gallery-4.jpg", alt="alt")
+                .col-md-4.col-12
+                    img(class="resImg",src="../img/gallery/gallery-5.jpg", alt="alt")
+                .col-md-4.col-12
+                    img(class="resImg",src="../img/gallery/gallery-6.jpg", alt="alt")
+        footer.py-3
+            .container
+                .row
+                    .col-md-6.col-12
+                        h5.text-uppercase.font-weight-normal.display-4 avilon
+                        p.lead Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, reprehenderit expedita tenetur nobis recusandae mollitia pariatur iste officiis aliquam dignissimos explicabo unde perspiciatis veniam natus deserunt eos ullam tempora commodi!
+                        .icons
+                            i(class="p-3 fab fa-facebook-square")
+                            i(class="p-3 fab fa-twitter")
+                            i(class="p-3 fab fa-youtube")
+                            i(class="p-3 fab fa-linkedin")
+                    .col-md-6.col-12
+                        .contenue.p-2
+                            i(class="p-3 fab fa-linkedin")
+                            p.lead Lorem ipsum dolor sit amet consectetur.
+                        .contenue.p-2
+                            i(class="p-3 fab fa-linkedin")
+                            p.lead Lorem ipsum dolor sit amet consectetur.
+                        .contenue.p-2
+                            i(class="p-3 fab fa-linkedin")
+                            p.lead Lorem ipsum dolor sit amet consectetur.
+            .Copyright.p-3
+                p.lead Lorem ipsum dolor sit amet consectetur.
+        include _linkJs
